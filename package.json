@@ -1,0 +1,12 @@
+{
+  "name": "MIN-PRO",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^4.0.6"
+  },
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./public/Mian.css --watch"
+  }
+}
