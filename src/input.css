@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@layer base {
+    /* Define the font properly */
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../asset/font/Poppins-Regular.ttf") format('truetype');
+    }
+
+    /* Apply Tailwind utility class */
+    .bg-primary {
+        @apply bg-[#49bbbd];
+    }
+
+    /* Apply the font to HTML */
+    html {
+        font-family: 'Poppins', sans-serif;
+    }
+}

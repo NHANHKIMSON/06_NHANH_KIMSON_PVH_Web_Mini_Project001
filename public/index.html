@@ -3,12 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="Mian.css">
     <title>Document</title>
 </head>
 <body>
     <!-- NavigationBar -->
+    <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-primary text-sm py-3 dark:bg-gray-950">
+        <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
+      <div class="flex items-center justify-between">
+        <a class="text-slate-200 flex-none text-xl font-semibold focus:outline-none focus:opacity-80 relative" href="#" aria-label="Brand">
+          TOTC
+        </a>
+        <div class="border-2 border-blue-600 p-4 absolute rotate-45 z-0"></div>
+        <div class="sm:hidden">
+          <button type="button" class="hs-collapse-toggle relative size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none" id="hs-navbar-example-collapse" aria-expanded="false" aria-controls="hs-navbar-example" aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-example">
+            <svg class="hs-collapse-open:hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+            <svg class="hs-collapse-open:block hidden shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+        </div>
+      </div>
+      <div id="hs-navbar-example" class="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block" aria-labelledby="hs-navbar-example-collapse">
+        <div class="flex flex-col gap-10 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-8 items-center">
+            <!-- <a class="font-medium text-slate-100 focus:outline-none" href="#" aria-current="page">Landing</a> -->
+            <a class="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400 text-base" href="#">Home</a>
+            <a class="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400 text-base" href="#">Course</a>
+            <a class="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400 text-base" href="#">Careers</a>
+            <a class="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400 text-base" href="#">Blog</a>
+            <a class="font-medium text-gray-200 hover:text-gray-400 focus:outline-none focus:text-gray-400 text-base" href="#">About Us</a>
+            <div>
+              <button type="button" class="me-4 my-2 text-gray-950 bg-slate-100 hover:bg-slate-300 focus:ring-4 focus:ring-slate-300 font-medium rounded-full text-sm px-8 py-3 dark:bg-slate-600 dark:hover:bg-slate-700 focus:outline-none dark:focus:ring-slate-800">Login</button>
+              <button type="button" class="my-2 me-2 py-3 px-6 text-sm font-medium text-slate-100 focus:outline-none bg-blend-color rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</nav>
+  </header>
      <!-- End Navigation bar -->
-    
+      <main>
+        <!-- Hero section -->
+        <section class="bg-primary dark:bg-gray-950 relative overflow-hidden" style="border-bottom-left-radius: 100% 30%; border-bottom-right-radius: 100% 30%;">
+          <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+              <div class="mr-auto place-self-center lg:col-span-7 mb-90">
+                  <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white"><span class="text-amber-600">Studying</span> Online is now musch easier</h1>
+                  <p class="max-w-2xl mb-6 font-light text-slate-100 lg:mb-8 md:text-lg lg:text-xl">TOTC is an interesting platform that will teach
+                    <br> you in more an interactive way</p>
+                    <div class="flex items-center gap-4">
+                      <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-gray-900 rounded-3xl bg-slate-100/50 op hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                        Join for free
+                        <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                      </a>
+                      <button class="text-[#24bdee] bg-white p-3 rounded-full">
+                        <a href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                            <path fill-rule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clip-rule="evenodd" />
+                          </svg>                    
+                        </a>
+                      </button>
+                      <p class="">Watch how it works</p>
+                    </div>
+              </div>
+              <div class="w-[560px] hidden lg:mt-0 lg:col-span-5 lg:flex absolute bottom-0 right-30">
+                  <img src="../asset/img/hero.png" alt="mockup">
+              </div> 
+              <div class="bg-white/55 p-4 rounded-[20px] absolute flex justify-between items-center gap-3 right-[430px] top-[150px]">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="size-12 p-2 bg-[#24b6e5] text-white rounded-[8px]">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
+                </svg>                      
+                <div>
+                  <h5> 250k</h5>
+                  <p>Assisted Student</p>
+                </div>
+              </div>               
+              <div class="bg-white/75 p-4 rounded-[20px] absolute flex justify-between items-center gap-3" style="right: 60px; top: 270px;">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-12 p-2 bg-[#f98c3e] text-white rounded-[8px]">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75" />
+                </svg>
+                
+                                     
+                <div>
+                  <h5> 250k</h5>
+                  <p>Assisted Student</p>
+                </div>
+              </div>               
+          </div>
+          <!-- <div class="w-full h-[200px] bg-primary" style="border-bottom-left-radius: 50% 20%; border-bottom-right-radius: 50% 20%; padding: 10px 20px;"></div> -->
+      </section>
+      </main>    
 </body>
 </html>
