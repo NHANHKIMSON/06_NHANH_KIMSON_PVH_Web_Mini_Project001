@@ -574,9 +574,6 @@
   .-right-4 {
     right: calc(var(--spacing) * -4);
   }
-  .-right-6 {
-    right: calc(var(--spacing) * -6);
-  }
   .-right-10 {
     right: calc(var(--spacing) * -10);
   }
@@ -597,9 +594,6 @@
   }
   .right-\[430px\] {
     right: 430px;
-  }
-  .-bottom-6 {
-    bottom: calc(var(--spacing) * -6);
   }
   .-bottom-8 {
     bottom: calc(var(--spacing) * -8);
@@ -809,6 +803,9 @@
   .h-5 {
     height: calc(var(--spacing) * 5);
   }
+  .h-7 {
+    height: calc(var(--spacing) * 7);
+  }
   .h-8 {
     height: calc(var(--spacing) * 8);
   }
@@ -844,6 +841,15 @@
   }
   .h-48 {
     height: calc(var(--spacing) * 48);
+  }
+  .h-60 {
+    height: calc(var(--spacing) * 60);
+  }
+  .h-72 {
+    height: calc(var(--spacing) * 72);
+  }
+  .h-80 {
+    height: calc(var(--spacing) * 80);
   }
   .h-\[90px\] {
     height: 90px;
@@ -1246,9 +1252,6 @@
   .bg-blue-100 {
     background-color: var(--color-blue-100);
   }
-  .bg-blue-400 {
-    background-color: var(--color-blue-400);
-  }
   .bg-gray-700\/45 {
     background-color: color-mix(in oklab, var(--color-gray-700) 45%, transparent);
   }
@@ -1554,9 +1557,6 @@
   }
   .opacity-100 {
     opacity: 100%;
-  }
-  .bg-blend-color {
-    background-blend-mode: color;
   }
   .shadow {
     --tw-shadow: 0 1px 3px 0 var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
