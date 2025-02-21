@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="Mian.css">
     <title>WELCOME | HOME</title>
 </head>
-<body>
+<body class="dark:bg-gray-900 dark:text-white">
     <!-- NavigationBar -->
     <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-primary text-sm py-3 dark:bg-gray-950">
         <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
@@ -41,7 +41,7 @@
 </nav>
   </header>
      <!-- End Navigation bar -->
-      <main>
+      <main class="mb-10">
         <!-- Hero section -->
         <section class="bg-primary dark:bg-gray-950 relative overflow-hidden" style="border-bottom-left-radius: 100% 30%; border-bottom-right-radius: 100% 30%;">
           <div class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
@@ -233,15 +233,36 @@
                   </h2>
                   <ul class="mt-4 space-y-4">
                       <li class="flex items-start gap-2">
-                          <span class="text-orange-500">■</span>
+                         <div class="w-8 h-8 bg-white shadow-2xl">
+                          <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect y="0.000244141" width="11.8182" height="11.8182" rx="2" fill="#2F327D"/>
+                            <rect y="14.1821" width="11.8182" height="11.8182" rx="2" fill="#2F327D"/>
+                            <rect x="14.7734" y="0.000244141" width="11.8182" height="11.8182" rx="2" fill="#2F327D"/>
+                            <rect x="14.7734" y="14.1821" width="11.8182" height="11.8182" rx="2" fill="#F48C06"/>
+                            </svg>
+                            
+                         </div>
                           <p class="text-gray-600">Teachers don’t get lost in the grid view and have a dedicated Podium space.</p>
                       </li>
                       <li class="flex items-start gap-2">
-                          <span class="text-orange-500">■</span>
+                        <div class="w-8 h-8 bg-white shadow-2xl">
+                          <svg width="28" height="26" viewBox="0 0 28 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="8" y="6.00024" width="20" height="20" rx="2" fill="#2F327D"/>
+                            <rect y="0.000244141" width="21.2245" height="21.2245" rx="2" fill="#F48C06"/>
+                            </svg>
+                            
+                            
+                         </div>
                           <p class="text-gray-600">TA’s and presenters can be moved to the front of the class.</p>
                       </li>
                       <li class="flex items-start gap-2">
-                          <span class="text-orange-500">■</span>
+                        <div class="w-8 h-8 bg-white p-2">
+                          <svg width="30" height="26" viewBox="0 0 30 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4.5 11.3752C6.15469 11.3752 7.5 9.91782 7.5 8.12524C7.5 6.33267 6.15469 4.87524 4.5 4.87524C2.84531 4.87524 1.5 6.33267 1.5 8.12524C1.5 9.91782 2.84531 11.3752 4.5 11.3752ZM25.5 11.3752C27.1547 11.3752 28.5 9.91782 28.5 8.12524C28.5 6.33267 27.1547 4.87524 25.5 4.87524C23.8453 4.87524 22.5 6.33267 22.5 8.12524C22.5 9.91782 23.8453 11.3752 25.5 11.3752ZM27 13.0002H24C23.175 13.0002 22.4297 13.3608 21.8859 13.9448C23.775 15.067 25.1156 17.0932 25.4062 19.5002H28.5C29.3297 19.5002 30 18.7741 30 17.8752V16.2502C30 14.4577 28.6547 13.0002 27 13.0002ZM15 13.0002C17.9016 13.0002 20.25 10.4561 20.25 7.31274C20.25 4.16938 17.9016 1.62524 15 1.62524C12.0984 1.62524 9.75 4.16938 9.75 7.31274C9.75 10.4561 12.0984 13.0002 15 13.0002ZM18.6 14.6252H18.2109C17.2359 15.1331 16.1531 15.4377 15 15.4377C13.8469 15.4377 12.7688 15.1331 11.7891 14.6252H11.4C8.41875 14.6252 6 17.2456 6 20.4752V21.9377C6 23.2834 7.00781 24.3752 8.25 24.3752H21.75C22.9922 24.3752 24 23.2834 24 21.9377V20.4752C24 17.2456 21.5812 14.6252 18.6 14.6252ZM8.11406 13.9448C7.57031 13.3608 6.825 13.0002 6 13.0002H3C1.34531 13.0002 0 14.4577 0 16.2502V17.8752C0 18.7741 0.670312 19.5002 1.5 19.5002H4.58906C4.88438 17.0932 6.225 15.067 8.11406 13.9448Z" fill="#2F327D"/>
+                            </svg>
+                            
+                            
+                         </div>
                           <p class="text-gray-600">Teachers can easily see all students and class data at one time.</p>
                       </li>
                   </ul>
@@ -250,7 +271,7 @@
             </section>
 
 
-            <section class="bg-white dark:bg-gray-900">
+            <section class="bg-white dark:bg-gray-900 mt-6 sm:mt-0">
               <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                   <div class="mr-auto place-self-center lg:col-span-7">
                     <h2 class="text-2xl md:text-3xl font-bold text-[#03cbb8]">
@@ -267,7 +288,7 @@
           </section>
 
           
-            <section class="bg-white dark:bg-gray-900">
+            <section class="bg-white dark:bg-gray-900 mt-6 sm:mt-0">
               <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 relative">
                 <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
 
@@ -346,14 +367,14 @@
                 </div>
                 
               </div> 
-                  <div class="place-self-center items-center lg:col-span-7">
+                  <div class="sm:place-self-center sm:items-center lg:col-span-7">
                         <div class="">
                         <h2 class="text-2xl md:text-3xl font-bold text-[#2f327d]">
                           Assessments,<span class="text-[#03cbb8]">
                             <br> Quizzes,</span> 
                             <span class="text-[#2f327d]"> Tests</span>
                           </h2>
-                          <p class="text-gray-600 mt-2 max-w-md mx-auto">
+                          <p class="text-gray-600 mt-2 sm:max-w-md sm:mx-auto">
                             Class has a dynamic set of teaching tools built to be deployed and used during class.
                             Teachers can handout assignments in real-time for students to complete and submit. </p>                 
                           </div>
@@ -364,7 +385,7 @@
 
 
 
-          <section class="bg-white dark:bg-gray-900">
+          <section class="bg-white dark:bg-gray-900 mt-6 sm:mt-0">
             <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                 <div class="mr-auto place-self-center lg:col-span-7">
                   <h2 class="text-2xl md:text-3xl font-bold text-[#03cbb8]">
@@ -411,7 +432,7 @@
 
 
 
-        <section class="bg-white dark:bg-gray-900 mb-6">
+        <section class="bg-white dark:bg-gray-900 mt-6 sm:mt-0">
           <div class="grid max-w-screen-xl px-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 relative">
             <div class="lg:mt-0 lg:col-span-5 lg:flex blur-xs shadow">
               <!-- Header  -->
@@ -486,14 +507,14 @@
           </div>
           
         </div> 
-              <div class="place-self-center items-center lg:col-span-7">
-                    <div class="">
+              <div class=" sm:place-self-center sm:items-center lg:col-span-7">
+                    <div>
                     <h2 class="text-2xl md:text-3xl font-bold text-[#2f327d]">
-                      Assessments,<span class="text-[#03cbb8]">
+                      One-on-One<span class="text-[#03cbb8]">
                         <br> Quizzes,</span> 
-                        <span class="text-[#2f327d]"> Tests</span>
+                        <span class="text-[#2f327d]"> Discussions</span>
                       </h2>
-                      <p class="text-gray-600 mt-2 max-w-md mx-auto">
+                      <p class="text-gray-600 mt-2 sm:max-w-md sm:mx-auto">
                         Class has a dynamic set of teaching tools built to be deployed and used during class.
                         Teachers can handout assignments in real-time for students to complete and submit. </p>                 
                       </div>
