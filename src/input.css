@@ -4,7 +4,7 @@
     /* Define the font properly */
     @font-face {
         font-family: 'Poppins';
-        src: url("../asset/font/Poppins-Regular.ttf") format('truetype');
+        src: url("../public/font/Poppins-Regular.ttf") format('truetype');
     }
 
     /* Apply Tailwind utility class */
