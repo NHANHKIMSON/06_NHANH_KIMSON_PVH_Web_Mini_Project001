@@ -1270,6 +1270,9 @@
   .bg-slate-200\/30 {
     background-color: color-mix(in oklab, var(--color-slate-200) 30%, transparent);
   }
+  .bg-slate-900 {
+    background-color: var(--color-slate-900);
+  }
   .bg-teal-400 {
     background-color: var(--color-teal-400);
   }
