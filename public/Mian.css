@@ -544,6 +544,9 @@
   .-top-20 {
     top: calc(var(--spacing) * -20);
   }
+  .-top-\[100px\] {
+    top: calc(100px * -1);
+  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
@@ -565,8 +568,29 @@
   .top-50 {
     top: calc(var(--spacing) * 50);
   }
+  .top-\[20px\] {
+    top: 20px;
+  }
+  .top-\[100px\] {
+    top: 100px;
+  }
+  .top-\[120px\] {
+    top: 120px;
+  }
   .top-\[150px\] {
     top: 150px;
+  }
+  .top-\[160px\] {
+    top: 160px;
+  }
+  .top-\[180px\] {
+    top: 180px;
+  }
+  .top-\[200px\] {
+    top: 200px;
+  }
+  .top-\[400px\] {
+    top: 400px;
   }
   .top-\[420px\] {
     top: 420px;
@@ -592,8 +616,32 @@
   .right-30 {
     right: calc(var(--spacing) * 30);
   }
+  .right-\[100px\] {
+    right: 100px;
+  }
+  .right-\[160px\] {
+    right: 160px;
+  }
+  .right-\[200px\] {
+    right: 200px;
+  }
+  .right-\[400px\] {
+    right: 400px;
+  }
   .right-\[430px\] {
     right: 430px;
+  }
+  .right-\[460px\] {
+    right: 460px;
+  }
+  .right-\[530px\] {
+    right: 530px;
+  }
+  .right-\[540px\] {
+    right: 540px;
+  }
+  .right-\[560px\] {
+    right: 560px;
   }
   .-bottom-8 {
     bottom: calc(var(--spacing) * -8);
@@ -742,8 +790,14 @@
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
+  .mb-5 {
+    margin-bottom: calc(var(--spacing) * 5);
+  }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
   }
   .mb-10 {
     margin-bottom: calc(var(--spacing) * 10);
@@ -774,6 +828,9 @@
   }
   .hidden {
     display: none;
+  }
+  .inline {
+    display: inline;
   }
   .inline-flex {
     display: inline-flex;
@@ -857,6 +914,9 @@
   .h-\[90px\] {
     height: 90px;
   }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .h-\[200px\] {
     height: 200px;
   }
@@ -871,6 +931,9 @@
   }
   .h-\[345px\] {
     height: 345px;
+  }
+  .h-\[350px\] {
+    height: 350px;
   }
   .h-\[400px\] {
     height: 400px;
@@ -1215,6 +1278,9 @@
   }
   .bg-\[\#252641\] {
     background-color: #252641;
+  }
+  .bg-\[\#D8587E\] {
+    background-color: #D8587E;
   }
   .bg-\[\#E6F2FF\] {
     background-color: #E6F2FF;
